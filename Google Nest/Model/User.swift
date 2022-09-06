@@ -8,10 +8,6 @@
 import Foundation
 import GoogleSignIn
 
-//class User: GIDGoogleUser, Encodable {
-//
-//}
-
 
 struct GoogleNest : Codable {
 

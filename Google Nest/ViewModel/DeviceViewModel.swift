@@ -29,7 +29,4 @@ class DeviceViewModel: ObservableObject {
             self.nest = devices
         }
     }
-    
-    
-    
 }

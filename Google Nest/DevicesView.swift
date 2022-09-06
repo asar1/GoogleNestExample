@@ -45,9 +45,9 @@ struct DevicesView: View {
                     .listRowSeparator(.hidden)
                     .listItemTint(Color.blue)
                     .listRowBackground(Color.gray.opacity(0.1)
-                                        .clipped()
-                                        .cornerRadius(20)
-                                        .padding([.top, .bottom], 6))
+                        .clipped()
+                        .cornerRadius(20)
+                        .padding([.top, .bottom], 6))
                 }
                 //            .listStyle(GroupedListStyle())
                 .onAppear {
