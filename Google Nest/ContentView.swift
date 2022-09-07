@@ -75,3 +75,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+var tuple = ("sohaib", 10, 10, "Ali")

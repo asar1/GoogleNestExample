@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26FEFF8E28C7949D00095659 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FEFF8D28C7949D00095659 /* Device.swift */; };
+		26FEFF9028C794B600095659 /* Trait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FEFF8F28C794B600095659 /* Trait.swift */; };
+		26FEFF9228C794F200095659 /* ThermostatMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FEFF9128C794F200095659 /* ThermostatMode.swift */; };
+		26FEFF9428C7951600095659 /* ThermostatEco.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FEFF9328C7951600095659 /* ThermostatEco.swift */; };
+		26FEFF9628C7952E00095659 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FEFF9528C7952E00095659 /* Temperature.swift */; };
+		26FEFF9828C7954000095659 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FEFF9728C7954000095659 /* Setting.swift */; };
+		26FEFF9A28C7955400095659 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FEFF9928C7955400095659 /* Info.swift */; };
+		26FEFF9C28C7956A00095659 /* Humidity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FEFF9B28C7956A00095659 /* Humidity.swift */; };
+		26FEFF9E28C7958700095659 /* Fan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FEFF9D28C7958700095659 /* Fan.swift */; };
+		26FEFFA028C7959800095659 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FEFF9F28C7959800095659 /* Connectivity.swift */; };
+		26FEFFA228C795BD00095659 /* ParentRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FEFFA128C795BD00095659 /* ParentRelation.swift */; };
 		CA00FB2327CBCF8D00DFC656 /* DevicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA00FB2227CBCF8D00DFC656 /* DevicesView.swift */; };
 		CA00FB2627CBCFE000DFC656 /* DeviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA00FB2527CBCFE000DFC656 /* DeviceViewModel.swift */; };
 		CA79A45927DE6A29009BF203 /* DeviceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA79A45827DE6A29009BF203 /* DeviceDetailView.swift */; };
@@ -20,6 +31,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26FEFF8D28C7949D00095659 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		26FEFF8F28C794B600095659 /* Trait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trait.swift; sourceTree = "<group>"; };
+		26FEFF9128C794F200095659 /* ThermostatMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermostatMode.swift; sourceTree = "<group>"; };
+		26FEFF9328C7951600095659 /* ThermostatEco.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermostatEco.swift; sourceTree = "<group>"; };
+		26FEFF9528C7952E00095659 /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
+		26FEFF9728C7954000095659 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		26FEFF9928C7955400095659 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		26FEFF9B28C7956A00095659 /* Humidity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Humidity.swift; sourceTree = "<group>"; };
+		26FEFF9D28C7958700095659 /* Fan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fan.swift; sourceTree = "<group>"; };
+		26FEFF9F28C7959800095659 /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
+		26FEFFA128C795BD00095659 /* ParentRelation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentRelation.swift; sourceTree = "<group>"; };
 		CA00FB2227CBCF8D00DFC656 /* DevicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesView.swift; sourceTree = "<group>"; };
 		CA00FB2527CBCFE000DFC656 /* DeviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceViewModel.swift; sourceTree = "<group>"; };
 		CA79A45827DE6A29009BF203 /* DeviceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDetailView.swift; sourceTree = "<group>"; };
@@ -98,6 +120,17 @@
 			isa = PBXGroup;
 			children = (
 				CAC159C827CB461D0077D94A /* User.swift */,
+				26FEFF8D28C7949D00095659 /* Device.swift */,
+				26FEFF8F28C794B600095659 /* Trait.swift */,
+				26FEFF9128C794F200095659 /* ThermostatMode.swift */,
+				26FEFF9328C7951600095659 /* ThermostatEco.swift */,
+				26FEFF9528C7952E00095659 /* Temperature.swift */,
+				26FEFF9728C7954000095659 /* Setting.swift */,
+				26FEFF9928C7955400095659 /* Info.swift */,
+				26FEFF9B28C7956A00095659 /* Humidity.swift */,
+				26FEFF9D28C7958700095659 /* Fan.swift */,
+				26FEFF9F28C7959800095659 /* Connectivity.swift */,
+				26FEFFA128C795BD00095659 /* ParentRelation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -186,13 +219,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26FEFF9C28C7956A00095659 /* Humidity.swift in Sources */,
+				26FEFF9428C7951600095659 /* ThermostatEco.swift in Sources */,
+				26FEFFA028C7959800095659 /* Connectivity.swift in Sources */,
 				CA79A45927DE6A29009BF203 /* DeviceDetailView.swift in Sources */,
+				26FEFF9628C7952E00095659 /* Temperature.swift in Sources */,
 				CA00FB2627CBCFE000DFC656 /* DeviceViewModel.swift in Sources */,
+				26FEFF9828C7954000095659 /* Setting.swift in Sources */,
 				CAC159B827CAC3F30077D94A /* ContentView.swift in Sources */,
 				CA00FB2327CBCF8D00DFC656 /* DevicesView.swift in Sources */,
 				CAC159B627CAC3F30077D94A /* Google_NestApp.swift in Sources */,
+				26FEFF9E28C7958700095659 /* Fan.swift in Sources */,
+				26FEFF9228C794F200095659 /* ThermostatMode.swift in Sources */,
 				CAC159C927CB461D0077D94A /* User.swift in Sources */,
 				CAC159CC27CB51180077D94A /* DeviceService.swift in Sources */,
+				26FEFF9028C794B600095659 /* Trait.swift in Sources */,
+				26FEFF8E28C7949D00095659 /* Device.swift in Sources */,
+				26FEFF9A28C7955400095659 /* Info.swift in Sources */,
+				26FEFFA228C795BD00095659 /* ParentRelation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,7 +19,6 @@ class DeviceService {
         request.httpMethod = "GET"
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
         request.addValue("Bearer \(googleUser.authentication.accessToken)", forHTTPHeaderField: "Authorization")
-        print("Bearer \(googleUser.authentication.accessToken)")
         URLSession.shared.dataTask(with: request) { (data, response, error) in
             guard let data = data, error == nil else {
                 completion(nil)
